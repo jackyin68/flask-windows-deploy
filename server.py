@@ -1,7 +1,7 @@
-from flask import Flask, send_from_directory
-from flask import request
 import os
 import sys
+
+from flask import Flask
 
 path = os.path.dirname(sys.path[0])
 if path and path not in sys.path:
